@@ -1,29 +1,40 @@
-# Fake-News-projds2
+#  Fake News📰 Classification WebApp using Python
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)   
 
-## Fake News Detection
+## [Follow us on Instagram for Machine Learning Guidelines & Path](https://www.instagram.com/machine_learning_hub.ai/)
+## [Buy Python & ML projects for students at lower rate](https://www.instamojo.com/kushalbhavsar1820)
 
-### Overview
+### Sourcerer
+<a href="https://sourcerer.io/spidy20"><img src="https://avatars2.githubusercontent.com/u/42056100?v=4" height="50px" width="50px" alt=""/></a>
 
-The topic of fake news detection on social media has recently attracted tremendous attention. The basic countermeasure of comparing websites against a list of labeled fake news sources is inflexible, and so a machine learning approach is desirable. Our project aims to use Natural Language Processing to detect fake news directly, based on the text content of news articles.
+<img src="https://github.com/Spidy20/Fake_News_Detection/blob/master/fn.jpg">
 
-### Problem Definition
+## [See the Tutorial of this Project](https://youtu.be/GS_ylghUtLQ)
 
-Develop a machine learning program to identify when a news source may be producing fake news. My aim is to use a corpus of labeled real and fake new articles to build a classifier that can make decisions about information based on the content from the corpus. The model will focus on identifying fake news sources, based on multiple articles originating from a source. Once a source is labeled as a producer of fake news, we can predict with high confidence that any future articles from that source will also be fake news. Focusing on sources widens our article misclassification tolerance, because we will have multiple data points coming from each source.
+## Usage:-
 
-The intended application of the project is for use in applying visibility weights in social media. Using weights produced by this model, social networks can make stories which are highly likely to be fake news less visible.
+- Clone my repository.
+- Open CMD in working directory.
+- Run `pip install -r requirements.txt`
+- Open project in any IDE(Pycharm or VSCode)
+- Run `Fake_News_Det.py`, go to the `http://127.0.0.1:5000/`
+- If you want to build your model with the some changes, you can check the `Fake_News_Detection.ipynb`.
+- You can check web app is working fine. Sometimes predictions may be wrong.
 
-### Flowchart
-![image](https://user-images.githubusercontent.com/90992662/137357875-af4d53d0-9b5b-48fe-833c-6fb8f528c87b.png)
+## Screenshots
 
-### Screenshots of the project
-![image](https://user-images.githubusercontent.com/90992662/137358160-41fd1b72-1e4f-40ee-a8f9-4f14dcfdb8f1.png)
-![image](https://user-images.githubusercontent.com/90992662/137358247-d6984b57-b3a2-40c3-bdd0-9f56dfaf6807.png)
-![image](https://user-images.githubusercontent.com/90992662/137358278-bd85a77a-4e84-4f78-adec-d2533b5c32aa.png)
+<img src="https://github.com/Spidy20/Fake_News_Detection/blob/master/s1.PNG">
+<img src="https://github.com/Spidy20/Fake_News_Detection/blob/master/s2.PNG">
 
-### Novelty of the project
-1. The problem of classifying fake news articles using machine learning models is solved as it had to be done manually which is very cumbersome.
-2. Helps in the problem of spread of rumors an false news, which can create hazardous situations.
-3. Makes people aware if they are reading correct news or not.
-4. Fake news can elevate anti-national sentiments, which can now be prevented.
+## Note
+- This project is just for learning purpose, don't think, it can do work in real time, because model was trained on historic & limited data.
+- For real time building of this kind of system, we need updated dataset and we need to build a model in particular interval of time, because news data can be updated in seconds, so our model should be also updated with the data.
 
-### live link for the project
+
+
+## Just follow☝️ me and Star⭐ my repository 
+
+# [Buy me a Coffee☕](https://www.buymeacoffee.com/spidy20)
+## [Donate me on PayPal(It will inspire me to do more projects)](https://www.paypal.me/spidy1820)
+## Donate me on GPAY:- kushalbhavsar58-1@okaxis
